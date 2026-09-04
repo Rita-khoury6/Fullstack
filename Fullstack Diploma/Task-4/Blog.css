@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    
+} 
+*
+  {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.card{
+   background-color: hsl(0, 3%, 34%);
+   width:500px;
+   height: auto;
+    text-align: center;
+   border-radius: 50px;
+
+
+}
+.card h1{
+    color:hsl(0, 0%, 100%);
+    margin-bottom: 2px;
+}
+.card h3{
+    color:hsl(47, 88%, 63%);
+    margin-bottom:2px ;
+    
+}
+.card p{
+    color: hsl(0, 0%, 42%);
+    font-size: 16px;
+}
+ .card img{
+width: 100px;
+height: 100px;
+border-radius: 50px;
+margin-bottom: 6px;
+}
+.card a{
+    border:5px solid grey;
+    
+}

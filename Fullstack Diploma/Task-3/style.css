@@ -1,0 +1,57 @@
+body{
+    background-color:antiquewhite;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 60px 20px;
+}
+.d{
+    background-color: white;
+    border-radius: 18px;
+    width:700px ;
+  max-width: 100%;
+  padding: 30px;;
+}
+img{
+    width:100%;
+    border-radius: 12px;
+    display: block;
+}
+.pdiv{
+    background-color: rgb(246, 229, 235);
+    border-radius: 15px;
+}
+span{
+    font-weight: bold;
+    color:black ;
+}
+ul li::marker, ol li::marker{
+    color: red; 
+}
+h1{
+    font-size: 300%;
+}
+h3{
+    color:darkslateblue
+}
+   h2{
+ color:brown   
+}
+.ntable {
+   border-collapse: collapse;
+  width : 100% ;
+}
+.ntable tr td:nth-child(2) {
+    font-weight:bold;
+color:maroon;
+
+}
+
+.ntable td {
+  border-bottom: 1px solid grey; 
+  padding: 12px 15px; 
+}
+
+.ntable tr:last-child td {
+  border-bottom: none;
+}

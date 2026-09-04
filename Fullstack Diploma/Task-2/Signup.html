@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Personal Information</legend>
+        <label for="name">Enter your FullName:</label>
+        <input type="text" id="name" name="FullName" required > 
+         <label for="Passid">Enter your Password:</label>
+        <input type="password" id ="Passid" name="pss"><br/>
+        <label for="Email">Enter your Email:</label>
+        <input type="email" id="Email"name="email" required><br/>
+         <label for ="Age">Enter Your Age:</label>
+        <input type="text" id="Age" name="Age" maxlength="2" minlength="1"><br/>
+        <label>Enter Your Birthday Date:</label>
+        <input type="date" name="BD"><br/>
+        </fieldset> 
+        <fieldset>
+       <legend>Extra Informatiion</legend>
+       <label>Enter your Phone Num:</label>
+         <input type="tel" name="num"><br/>
+        <label>Enter your website</label>
+        <input type="url" placeholder="Enter your GITHUB website"><br/>
+        <input type="hidden" name="sendyear" value="2026"><!---won't appear in the URL-->
+        <label for="File">Upload a file: </label>
+        <input type="file" name="file"><br/>
+        <label>Enter your ID:</label>
+        <input type="text" name="id" pattern="[0-9]{11}"><br/>
+      </fieldset>  
+      <fieldset>
+        <legend>Gender</legend>
+        <label><input type="radio" name="Gender" value="m">Male</label>
+         <label><input type="radio" name="Gender" value="f">Female</label>
+</fieldset>
+<fieldset>
+    <legend>Hoobies</legend>
+    <label><input type="checkbox" name="hooby[]" value="piano">Piano</label>
+     <label><input type="checkbox" name="hooby[]" value="coding">Coding</label>
+      <label><input type="checkbox" name="hooby[]" value="drawing">Drawing</label>
+</fieldset>
+<fieldset>
+    <legend> Country</legend>
+        <select  name="country">
+            <option value="sy">Syria</option>
+               <option value="eg">Egypt</option>
+                  <option value="USA">United States of America</option>
+        </select>
+</fieldset>
+<fieldset>
+    <legend>Note</legend>
+<textarea name="comment" placeholder="Enter your note " rows="5" cols="40 " maxlength="180"></textarea><br/>
+</fieldset>
+    
+</fieldset>
+<input type="submit" value="Send">
+<input type="button" value="Refuse">
+    </form>
+</body>
+</html>
