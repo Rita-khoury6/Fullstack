@@ -44,8 +44,8 @@ if(finalPrice<0){
 console.log(`
     age=${age};
     isAdult=${isAdult};
-    availableSeats=${availableSeats};
     hasTicket=${hasTicket};
+    availableSeats=${availableSeats};
     canEnter=${canEnter};
     ticketType=${ticketType};
     isMember=${isMember};

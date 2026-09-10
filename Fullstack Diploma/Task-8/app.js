@@ -22,7 +22,7 @@ Subtotal: $${total.toFixed(2)}
 Shipping: $${scost.toFixed(2)}
 Total: $${finalTotal.toFixed(2)}
 `);
-
+//template literal
 
 
 
