@@ -51,3 +51,18 @@ console.log(`
     isMember=${isMember};
     finalPrice=${finalPrice};
     `)
+    const acceptedTerms=false;//boolean 
+  if(acceptedTerms){
+        console.log("Terms Accepted");
+    }
+    else{
+          console.log("Terms not Accepted");
+    }
+    //or
+    /*  if(!acceptedTerms){
+          console.log("Terms not Accepted");
+    }
+    else{
+        console.log("Terms Accepted");
+        
+    }*/
