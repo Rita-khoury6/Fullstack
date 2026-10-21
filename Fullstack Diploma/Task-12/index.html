@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task7-Js</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <form id="yourorder" method="get">
+        <label for="name">Customer Name:</label>
+        <input type="text" name="name" id="name"><br/>
+         <p id="namemess"></p>
+         <label for="number">Phone number:</label>
+         <input type="tel" id="number" name="number"><br/> 
+          <p id="numbermess"></p>
+         <label for="Product">Select Your Order</label>
+            <Select name="products "id="products">
+    <option value="">Choose Product</option>
+    <option value="Espresso">Espresso - 45 EGP</option>
+    <option value="Latte">Latte - 65 EGP</option>
+    <option value="Croissant">Croissant - 40 EGP</option>
+</select><br/>
+            <p id="productmess"></p>
+         <label for="quantity">Quantity</label>
+         <input type="number"id="quantity" name="quantity" min="1" max="10"><br/>
+          <p id="quantitymess"></p>
+         <button id="btn-order">Order</button>
+         <p id="empty"></p>
+    
+    </form>
+    <script src="app.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,77 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5eee6;
+    margin: 0;
+    padding: 40px 15px;
+}
+
+form {
+    background-color: white;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px #00000020;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #5d4037;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #8d6e63;
+}
+
+#namemess,
+#numbermess,
+#productmess,
+#quantitymess {
+    color: red;
+    font-size: 13px;
+    margin: 5px 0 15px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #795548;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5d4037;
+}
+
+#empty {
+    margin-top: 20px;
+    color: #5d4037;
+    line-height: 1.6;
+}
+
+#empty h3 {
+    text-align: center;
+    color: #4e342e;
+}
